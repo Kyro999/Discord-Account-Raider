@@ -51,9 +51,11 @@ namespace Discord_Account_Raider_v1._0
             Console.WriteLine($"[Username]: {Environment.UserName} / {Environment.MachineName}");
             Console.WriteLine("-----------------------------------------------------------------");
             Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.Write("\n>: Enter Token: ");
+            var token = Console.ReadLine();
             try
             {
-                client.Login("ODUzOTc1NTIyNTQzNzk2MjQ1.YQD3Eg.ThAzqAOEeScuE2pjIcaI7wikRNE");
+                client.Login(token);
             }
             catch (InvalidTokenException e)
             {
