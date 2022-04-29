@@ -41,13 +41,13 @@ namespace Discord_Account_Raider_v1._0
             login:
             string title = "██╗░░░██╗██╗░██████╗██╗░█████╗░███╗░░██╗░█████╗░██████╗░██╗░░░██╗\n██║░░░██║██║██╔════╝██║██╔══██╗████╗░██║██╔══██╗██╔══██╗╚██╗░██╔╝\n╚██╗░██╔╝██║╚█████╗░██║██║░░██║██╔██╗██║███████║██████╔╝░╚████╔╝░\n░╚████╔╝░██║░╚═══██╗██║██║░░██║██║╚████║██╔══██║██╔══██╗░░╚██╔╝░░\n░░╚██╔╝░░██║██████╔╝██║╚█████╔╝██║░╚███║██║░░██║██║░░██║░░░██║░░░\n░░░╚═╝░░░╚═╝╚═════╝░╚═╝░╚════╝░╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░";
             DiscordSocketClient client = new DiscordSocketClient(null);
-            Console.Title = "Visionary Raider | v1.0 | By Aquaries#0999 ";
+            Console.Title = "Visionary Raider | v1.0 | By Kyro#0102 ";
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(title);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("-----------------------------------------------------------------");
             Console.WriteLine("[Version]: v1.0");
-            Console.WriteLine("[Created by]: Aquaries#0999");
+            Console.WriteLine("[Created by]: Kyro#0102");
             Console.WriteLine($"[Username]: {Environment.UserName} / {Environment.MachineName}");
             Console.WriteLine("-----------------------------------------------------------------");
             Console.ForegroundColor = ConsoleColor.DarkCyan;
